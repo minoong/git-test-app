@@ -13,6 +13,7 @@ interface AccessibleIconProps {
 }
 
 const AccessibleIcon: React.FC<AccessibleIconProps> = ({ children, label }) => {
+  console.log(1);
   const child = React.Children.only(children);
   return (
     <>
